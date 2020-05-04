@@ -6,11 +6,11 @@
     <title>Package</title>
 </head>
 <body>
-    <h1>Contact Us</h1>
+    <h1>Contact Us For Package Detail</h1>
 
-    <form action="/contact/store" method="post">
+    <form class="form-group" action="/contact/store" method="post">
      @csrf 
-    <input type="text" name="name" />
+    <input class="form-control" type="text" name="name" />
     <input type="text" name="email" />
     <textarea name="message" id="" cols="30" rows="10"></textarea>
     <input type="submit" value="Submit">
