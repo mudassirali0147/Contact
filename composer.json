@@ -1,0 +1,21 @@
+{
+    "name": "nytrotech/contact",
+    "description": "It is contact package",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nytrotech\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nytrotech\\Contact\\ContactServiceProvider"
+            ]
+            
+        }
+    }
+}
